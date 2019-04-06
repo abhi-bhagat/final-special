@@ -53,7 +53,7 @@ class App extends React.Component {
           {this.getTab()}
         
        
-          <form className={classes.container} noValidate autoComplete="off">
+          <form  noValidate autoComplete="off">
         
 
         
@@ -75,9 +75,42 @@ class App extends React.Component {
 
         <TextField
           id="outlined-search"
-          label="Search field"
+          label="Search term"
           type="search"
-          className={classes.textField}
+          
+          margin="normal"
+          variant="outlined"
+        />
+        
+        <TextField
+          id="outlined-search"
+          label="category"
+          type="search"
+          
+          margin="normal"
+          variant="outlined"
+        />
+        <TextField
+          id="outlined-search"
+          label="location"
+          type="search"
+          
+          margin="normal"
+          variant="outlined"
+        />
+        <TextField
+          id="outlined-search"
+          label="Ssortby"
+          type="search"
+          
+          margin="normal"
+          variant="outlined"
+        />
+        <TextField
+          id="outlined-search"
+          label="open at"
+          type="search"
+          
           margin="normal"
           variant="outlined"
         />
